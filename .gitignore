@@ -1,0 +1,35 @@
+# 忽略嵌套的Git倉庫
+*/.git/
+*/.git
+**/.git/
+**/.git
+
+# 忽略編譯產物
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+
+# 忽略臨時文件
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# 忽略IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略日誌文件
+*.log
+logs/
+
+# 忽略環境文件
+.env
+.venv/
+venv/
