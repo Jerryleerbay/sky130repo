@@ -1,0 +1,44 @@
+# Git 相關
+.git/
+.gitignore
+.gitmodules
+
+# 編譯產物
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+build/
+build-*/
+
+# 臨時文件
+*.tmp
+*.temp
+*~
+.DS_Store
+Thumbs.db
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日誌文件
+*.log
+logs/
+
+# 環境文件
+.env
+.venv/
+venv/
+
+# 文檔生成
+docs/_build/
+*.pdf
+
+# 測試文件
+test_*/
+*_test.*
